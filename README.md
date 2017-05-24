@@ -2,6 +2,8 @@
 
 The [Bootstrap Navbar](http://getbootstrap.com/components/#navbar-default)'s "hamburger" menu button doesn't work when `hoplon.svg` is required (doesn't need to be used, just required). This button shows up when you decrease the window size (shrink the browser) to mobile layout size. Pressing the button clears the entire page, rather than showing a dropdown menu of navbar items.
 
+Uncommenting [this line](https://github.com/mudphone/HoplonNavbarSvgProblem/blob/master/src/index.cljs.hl#L4) removes the `require` for `hoplon.svg` and the navbar works again.
+
 ## Dependencies
 
 - java 1.7+
@@ -23,15 +25,6 @@ The [Bootstrap Navbar](http://getbootstrap.com/components/#navbar-default)'s "ha
 
 3. If you edit and save a file, the task will recompile the code and reload the
    browser to show the updated version.
-
-### Production
-1. Run the `prod` task. In a terminal run:
-    ```bash
-    $ boot prod
-    ```
-
-2. The compiled files will be on the `target/` directory. This will use
-   advanced compilation and prerender the html.
 
 ## License
 
