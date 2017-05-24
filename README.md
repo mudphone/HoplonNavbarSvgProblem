@@ -1,6 +1,6 @@
 # navbar
 
-A [Hoplon][3] project designed to...well, that part is up to you.
+The [Bootstrap Navbar](http://getbootstrap.com/components/#navbar-default)'s "hamburger" menu button doesn't work when `hoplon.svg` is required (doesn't need to be used, just required). This button shows up when you decrease the window size (shrink the browser) to mobile layout size. Pressing the button clears the entire page, rather than showing a dropdown menu of navbar items.
 
 ## Dependencies
 
