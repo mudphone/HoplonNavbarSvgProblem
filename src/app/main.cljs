@@ -2,7 +2,7 @@
   (:require [cljsjs.bootstrap]
             [cljsjs.jquery]
             [hoplon.core :refer [defelem nav div button span a ul li]]
-            ;;[hoplon.svg :as svg] ;; <-- Comment & navbar collapse button will work
+            [hoplon.svg :as svg] ;; <-- Comment & navbar collapse button will work
             ))
 
 (defelem form-nav
