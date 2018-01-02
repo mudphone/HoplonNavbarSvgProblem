@@ -2,8 +2,7 @@
   (:require [cljsjs.bootstrap]
             [cljsjs.jquery]
             [hoplon.core :refer [defelem nav div button span a ul li]]
-            [hoplon.svg :as svg] ;; <-- Comment & navbar collapse button will work
-            ))
+            [hoplon.svg :as svg])) ;; <-- Comment & navbar collapse button will work
 
 (defelem form-nav
   [_ _]
@@ -14,8 +13,8 @@
           :data-toggle "collapse" :data-target "#bs-example-navbar-collapse-1" :aria-expanded "false"
           (span :class "icon-bar")
           (span :class "icon-bar")
-          (span :class "icon-bar")
-          )
+          (span :class "icon-bar"))
+
         (a :class "navbar-brand" "Brand"))
       (div :class "collapse navbar-collapse" :id "bs-example-navbar-collapse-1"
         (ul :class "nav navbar-nav"
