@@ -22,7 +22,7 @@
   (comp
     (watch)
     (speak)
-    ; (hoplon)
+    (hoplon)
     (reload)
     (cljs)
     (serve :port 8000)))
